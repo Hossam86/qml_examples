@@ -34,8 +34,5 @@ Window {
             height: 50
             opacity: 0.5
         }
-
-
-
-
+    }
 }
