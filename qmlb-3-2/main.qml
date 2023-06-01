@@ -2,7 +2,7 @@ import QtQuick
 
 
 // ID - must be unique
-// root object -there  can be only one
+// root object - there  can be only one
 
 // Top level object is the root
 

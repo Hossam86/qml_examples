@@ -1,5 +1,8 @@
 import QtQuick
 
+// ID - must be unique
+// Root Object - there can be only one
+
 Window {
     width: 640
     height: 480
