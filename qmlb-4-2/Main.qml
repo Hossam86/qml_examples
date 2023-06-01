@@ -22,6 +22,10 @@ Window {
         radius: width
 
         // gradient are super easy
+        gradient: Gradient{
+            GradientStop {position:0.0; color:"red"}
+            GradientStop {position:1.0; color: "blue"}
+        }
 
     }
 
