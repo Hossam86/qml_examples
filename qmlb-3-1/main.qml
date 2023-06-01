@@ -15,3 +15,4 @@ Window {
         anchors.centerIn: parent;
     }
 }
+
