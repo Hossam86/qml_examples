@@ -42,8 +42,48 @@ Window {
             onExited: parent.color='blue'
         }
     }
-   // ---------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------
+    // custom components
+    property var middle: (height/2)-50
+    MyButton{
+        id:button1
+        title: 'button 1'
+        x: 50
+        y:middle
+        color:'red'
+        colorClicked: 'orange'
+    }
+    MyButton
+    {
+        id:button2
+        title: 'button 2'
+        x:200
+        y:middle
+        color:'blue'
+        colorClicked: 'orange'
+    }
+    MyButton
+    {
+        id:button3
+        title: 'button3'
+        x:350
+        y:middle
+        color:'green'
+        colorClicked: 'orange'
+    }
 
+    MyButton
+    {
+        id:button4
+        title: "<b>super<\b> <i>Long<\i> <u>Button</u>"
+        x:50
+        y:middle+120
+        width:500
+        height: 35
+        color:'lightblue'
+        colorClicked: 'orange'
+
+    }
 
 }
 

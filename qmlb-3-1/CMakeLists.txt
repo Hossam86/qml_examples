@@ -14,7 +14,7 @@ qt_add_executable(appqmlb-3-1
 qt_add_qml_module(appqmlb-3-1
     URI qmlb-3-1
     VERSION 1.0
-    QML_FILES main.qml 
+    QML_FILES main.qml MyButton.qml
 )
 
 set_target_properties(appqmlb-3-1 PROPERTIES
