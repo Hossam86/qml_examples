@@ -15,7 +15,7 @@ Rectangle
 
     Image {
         id: car_render
-        source: "/ui/assets/car2.jpeg"
+        source: "/ui/assets/car-model.png"
 
         anchors.centerIn: parent
         width: parent.width *0.75
