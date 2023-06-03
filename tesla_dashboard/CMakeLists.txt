@@ -4,11 +4,14 @@ project(tesla_dashboard VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(CMAKE_AUTORCC ON)
+
 find_package(Qt6 6.4 REQUIRED COMPONENTS Quick)
 
 qt_standard_project_setup()
 
 qt_add_executable(apptesla_dashboard
+    app.qrc
     main.cpp
 )
 

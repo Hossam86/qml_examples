@@ -1,8 +1,11 @@
 import QtQuick
 import QtQuick.Window
+
 import "ui/ButtomBar"
 import "ui/RightScreen"
 import "ui/LeftScreen"
+
+
 
 Window {
     width: 1280
@@ -23,7 +26,7 @@ Window {
 
     ButtomBar
     {
-       id:buttom_bar
+        id:buttom_bar
 
     }
 

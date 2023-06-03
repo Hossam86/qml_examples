@@ -11,5 +11,15 @@ Rectangle
         right:right_screen.left
     }
 
-    color: 'blue'
+    color: 'white'
+
+    Image {
+        id: car_render
+        source: "/ui/assets/car2.jpeg"
+
+        anchors.centerIn: parent
+        width: parent.width *0.75
+        fillMode: Image.PreserveAspectFit
+
+    }
 }
