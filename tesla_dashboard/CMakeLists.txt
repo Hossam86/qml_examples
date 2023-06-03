@@ -15,7 +15,12 @@ qt_add_executable(apptesla_dashboard
 qt_add_qml_module(apptesla_dashboard
     URI tesla_dashboard
     VERSION 1.0
-    QML_FILES Main.qml ui/ButtomBar/ButtomBar.qml
+    QML_FILES Main.qml
+    ui/ButtomBar/ButtomBar.qml
+    ui/RightScreen/RightScreen.qml
+    ui/LeftScreen/LeftScreen.qml
+
+
 )
 
 set_target_properties(apptesla_dashboard PROPERTIES

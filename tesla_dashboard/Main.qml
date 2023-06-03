@@ -1,6 +1,8 @@
 import QtQuick
 import QtQuick.Window
 import "ui/ButtomBar"
+import "ui/RightScreen"
+import "ui/LeftScreen"
 
 Window {
     width: 1280
@@ -8,18 +10,15 @@ Window {
     visible: true
     title: qsTr("Tesla Infotainment")
 
-    Rectangle
+
+    RightScreen
     {
         id:right_screen
-        anchors
-        {
-            top:parent.top
-            bottom:buttom_bar.top
-            right:parent.right
-        }
+    }
 
-        width: parent.width * 2/3
-        color: 'orange'
+    LeftScreen
+    {
+        id:left_screen
     }
 
     ButtomBar
