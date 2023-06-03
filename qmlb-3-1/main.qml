@@ -84,6 +84,7 @@ Window {
         colorClicked: 'orange'
 
     }
+    MyButton{}
 
 }
 
