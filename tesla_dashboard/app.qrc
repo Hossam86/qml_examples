@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>ui/assets/car-model.png</file>
         <file>ui/assets/car.png</file>
+        <file>ui/assets/lock.png</file>
+        <file>ui/assets/unlock.png</file>
     </qresource>
 </RCC>

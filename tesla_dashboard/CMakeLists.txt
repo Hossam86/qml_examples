@@ -12,6 +12,8 @@ qt_standard_project_setup()
 
 qt_add_executable(apptesla_dashboard
     app.qrc
+    Controllers/system.h
+    Controllers/system.cpp
     main.cpp
 )
 
