@@ -18,7 +18,7 @@ Rectangle
         source: "/ui/assets/car-model.png"
 
         anchors.centerIn: parent
-        width: parent.width *0.75
+        width: parent.width *0.4
         fillMode: Image.PreserveAspectFit
 
     }

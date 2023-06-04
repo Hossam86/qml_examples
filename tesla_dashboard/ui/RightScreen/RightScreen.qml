@@ -92,9 +92,54 @@ Rectangle
         fillMode: Image.PreserveAspectFit
 
         MouseArea{
-        anchors.fill: parent
-        onClicked: systemHandler.setCarLocked(!systemHandler.carLocked)
+            anchors.fill: parent
+            onClicked: systemHandler.setCarLocked(!systemHandler.carLocked)
         }
+    }
+
+    Text {
+        id: date_time
+        text: systemHandler.currentTime
+
+        anchors{
+            left: lock_icon.right
+            leftMargin: 40;
+            bottom: lock_icon.bottom
+        }
+
+        font.pixelSize: 12
+        font.bold: true
+        color:'black'
+    }
+
+    Text {
+        id: outdoor_temp
+        text: systemHandler.outdoorTemp+"°F"
+
+        anchors{
+            left: date_time.right
+            leftMargin: 40;
+            bottom: lock_icon.bottom
+        }
+
+        font.pixelSize: 12
+        font.bold: true
+        color:'black'
+    }
+
+    Text {
+        id: user_name
+        text: systemHandler.userName
+
+        anchors{
+            left: outdoor_temp.right
+            leftMargin: 40;
+            bottom: lock_icon.bottom
+        }
+
+        font.pixelSize: 12
+        font.bold: true
+        color:'black'
     }
 
 }
