@@ -31,12 +31,22 @@ Rectangle{
     }
 
     HVACComponent {
-        id:passengerHvacController
+        id:driverHvacController
         anchors{
             top:parent.top
             bottom:parent.bottom
             left:carSettingIcon.right
             leftMargin: 150
+        }
+    }
+
+    HVACComponent {
+        id:passengerHvacController
+        anchors{
+            top:parent.top
+            bottom:parent.bottom
+            right:parent.right
+            rightMargin:150
         }
     }
 }
