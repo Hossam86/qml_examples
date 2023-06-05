@@ -30,4 +30,13 @@ Rectangle{
         fillMode: Image.PreserveAspectFit
     }
 
+    HVACComponent {
+        id:passengerHvacController
+        anchors{
+            top:parent.top
+            bottom:parent.bottom
+            left:carSettingIcon.right
+            leftMargin: 150
+        }
+    }
 }

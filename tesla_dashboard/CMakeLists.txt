@@ -14,6 +14,8 @@ qt_add_executable(apptesla_dashboard
     app.qrc
     Controllers/system.h
     Controllers/system.cpp
+    hvachandler.h
+    hvachandler.cpp
     main.cpp
 )
 
@@ -22,10 +24,10 @@ qt_add_qml_module(apptesla_dashboard
     VERSION 1.0
     QML_FILES Main.qml
     ui/ButtomBar/ButtomBar.qml
+    ui/ButtomBar/HVACComponent.qml
     ui/RightScreen/RightScreen.qml
+    ui/RightScreen/NavigationSearchBox.qml
     ui/LeftScreen/LeftScreen.qml
-
-
 )
 
 set_target_properties(apptesla_dashboard PROPERTIES
