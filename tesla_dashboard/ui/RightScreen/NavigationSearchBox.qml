@@ -9,9 +9,9 @@ Rectangle{
         id:search_icon
         source:"qrc:/ui/assets/search.png"
         anchors{
-        left: parent.left
-        leftMargin: 25
-        verticalCenter: parent.verticalCenter
+            left: parent.left
+            leftMargin: 25
+            verticalCenter: parent.verticalCenter
         }
         height: parent.height*.45
         fillMode: Image.PreserveAspectFit
@@ -32,16 +32,16 @@ Rectangle{
 
 
     TextInput{
-       id: navigation_text_input
-       clip: true;
-       anchors{
+        id: navigation_text_input
+        clip: true;
+        anchors{
             top:parent.top
             left:search_icon.right
             bottom: parent.bottom
             right: parent.right
             leftMargin: 20
-       }
-       verticalAlignment: Text.AlignVCenter
-       font.pixelSize: 16;
+        }
+        verticalAlignment: Text.AlignVCenter
+        font.pixelSize: 16;
     }
 }
