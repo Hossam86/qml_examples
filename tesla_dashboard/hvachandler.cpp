@@ -1,6 +1,6 @@
 #include "hvachandler.h"
 
-HvacHandler::HvacHandler(QObject *parent):QObject(parent), m_targetTemperture(70)
+HvacHandler::HvacHandler(QObject *parent):QObject(parent), m_targetTemperture(65)
 {
 
 }

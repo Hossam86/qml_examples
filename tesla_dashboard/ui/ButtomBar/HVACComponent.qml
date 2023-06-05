@@ -2,6 +2,7 @@ import QtQuick 2.15
 
 Item {
     property string font_color: '#f0eded'
+    property var hvac_controller
 
     Rectangle{
         id: decrement_button
@@ -25,7 +26,7 @@ Item {
     }
     Text {
         id: targetTempertureText
-        text: qsTr("70")
+        text: hvac_controller.targetTemperture
 
         anchors
         {

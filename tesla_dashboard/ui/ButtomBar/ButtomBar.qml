@@ -38,6 +38,7 @@ Rectangle{
             left:carSettingIcon.right
             leftMargin: 150
         }
+        hvac_controller: driverHvac
     }
 
     HVACComponent {
@@ -48,5 +49,6 @@ Rectangle{
             right:parent.right
             rightMargin:150
         }
+        hvac_controller: passengerHvac
     }
 }
