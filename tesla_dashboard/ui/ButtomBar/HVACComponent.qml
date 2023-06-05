@@ -23,6 +23,11 @@ Item {
             color: font_color
 
         }
+
+        MouseArea{
+            anchors.fill:parent
+            onClicked:hvac_controller.incrementTargetTemp(1)
+        }
     }
     Text {
         id: targetTempertureText
@@ -58,6 +63,11 @@ Item {
             font.pixelSize: 12;
             color: font_color
 
+        }
+
+        MouseArea{
+            anchors.fill:parent
+            onClicked:hvac_controller.incrementTargetTemp(1)
         }
     }
 
