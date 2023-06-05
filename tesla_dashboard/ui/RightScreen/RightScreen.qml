@@ -142,4 +142,19 @@ Rectangle
         color:'black'
     }
 
+    NavigationSearchBox{
+        id:navigation_box
+
+        anchors
+        {
+            left:lock_icon.left
+            top:lock_icon.bottom
+            topMargin:15
+        }
+
+        width:parent.width/3
+        height: parent.height/12
+
+    }
+
 }

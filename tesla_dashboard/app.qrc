@@ -4,5 +4,7 @@
         <file>ui/assets/car.png</file>
         <file>ui/assets/lock.png</file>
         <file>ui/assets/unlock.png</file>
+        <file>ui/RightScreen/NavigationSearchBox.qml</file>
+        <file>ui/assets/search.png</file>
     </qresource>
 </RCC>

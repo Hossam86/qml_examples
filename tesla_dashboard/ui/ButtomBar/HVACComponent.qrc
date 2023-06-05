@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>HVACComponent.qml</file>
+    </qresource>
+</RCC>
