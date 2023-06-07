@@ -1,5 +1,7 @@
 ## QML6 Examples
 
-### latest Demos
+### In Progress ....
+
+### Smart Thermostat
 
 <img src="Demos/smart_thermostate.png" alt="Smart Thermostat" style="height: 400px;"/>
