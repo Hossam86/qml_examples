@@ -30,6 +30,14 @@ Item {
     TempertureControlSlider
     {
         id:temperture_control_slider
+        anchors{
+        top:parent.top
+        left: system_status.right
+        bottom: parent.bottom
+        leftMargin: 100
+        topMargin: 80
+        bottomMargin:80
+        }
 
     }
 
