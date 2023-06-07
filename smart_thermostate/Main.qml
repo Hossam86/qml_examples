@@ -5,7 +5,7 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Thermstate Example")
+    title: qsTr("Smart Thermstat")
 
     Loader
     {
