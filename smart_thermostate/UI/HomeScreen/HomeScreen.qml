@@ -2,9 +2,9 @@ import QtQuick 2.15
 
 Item {
     Rectangle{
-    id:mainBackground
-    anchors.fill: parent
-    color:'black'
+        id:mainBackground
+        anchors.fill: parent
+        color:'black'
     }
 
     Text {
@@ -25,6 +25,12 @@ Item {
         }
         font.pixelSize: 30
         color:"white"
+    }
+
+    TempertureControlSlider
+    {
+        id:temperture_control_slider
+
     }
 
 }

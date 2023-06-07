@@ -15,7 +15,10 @@ qt_add_executable(appsmart_thermostate
 qt_add_qml_module(appsmart_thermostate
     URI smart_thermostate
     VERSION 1.0
-    QML_FILES Main.qml UI/HomeScreen/HomeScreen.qml
+    QML_FILES Main.qml
+    UI/HomeScreen/HomeScreen.qml
+    UI/HomeScreen/TempertureControlSlider.qml
+
 )
 
 set_target_properties(appsmart_thermostate PROPERTIES
