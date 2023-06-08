@@ -10,12 +10,6 @@ Slider
     stepSize: 1
     orientation: Qt.Vertical
 
-    //    background: Rectangle{
-    //                height: parent.height
-    //                 width: 3
-    //                anchors.centerIn: parent
-    //                  }
-
 
     handle: Rectangle{
 
