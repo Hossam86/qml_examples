@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Assets/auto.png</file>
+        <file>Assets/calendar.png</file>
+        <file>Assets/flame.png</file>
+        <file>Assets/ice-crystal.png</file>
+        <file>Assets/info-button.png</file>
+        <file>Assets/previous.png</file>
+        <file>Assets/settings.png</file>
+        <file>Assets/thermometer.png</file>
+        <file>Assets/wifi.png</file>
+    </qresource>
+</RCC>
