@@ -3,7 +3,7 @@ import QtQuick.Controls 2.15
 
 Slider
 {
-    id:temperture_control_slider
+    id:cnt_slider
     value: 65
     from:55
     to:85
@@ -21,10 +21,10 @@ Slider
         color:'black'
         border.color: 'white'
         border.width: 3
-        y:temperture_control_slider.visualPosition *(temperture_control_slider.availableHeight-height)
+        y:cnt_slider.visualPosition *(cnt_slider.availableHeight-height)
 
         Text {
-            text: temperture_control_slider.value
+            text: cnt_slider.value
             font.pixelSize: 30
             color: "white"
             anchors.centerIn: parent

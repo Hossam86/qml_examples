@@ -10,16 +10,16 @@ find_package(Qt6 6.4 REQUIRED COMPONENTS Quick)
 qt_standard_project_setup()
 
 qt_add_executable(appsmart_thermostate
-    qml.qrc
     main.cpp
+    app.qrc
 )
 
 qt_add_qml_module(appsmart_thermostate
     URI smart_thermostate
     VERSION 1.0
-    QML_FILES Main.qml
-    UI/HomeScreen/HomeScreen.qml
-    UI/HomeScreen/TempertureControlSlider.qml
+    QML_FILES main.qml
+    ui/Home_Screen/Home_Screen.qml
+    ui/Home_Screen/Temperature_Slider.qml
 
 )
 

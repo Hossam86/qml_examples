@@ -27,22 +27,9 @@ Item {
         color:"white"
     }
 
-    Image {
-        id: heat_cool_selection
-        anchors{
-        top: temperture_control_slider.top
-        right: system_status.left
-        rightMargin: 100
-        }
-        width: 70
-        height: 70
-        source: ":/Assets/calendar.png"
-
-    }
-
-    TempertureControlSlider
+    Temperature_Slider
     {
-        id:temperture_control_slider
+        id:temp_slider
         anchors{
         top:parent.top
         left: system_status.right
@@ -52,6 +39,15 @@ Item {
         bottomMargin:80
         }
 
+    }
+
+    Image {
+        id: heating_select
+        source: "/Users/hossamsamir/Projects/qml_examples/tesla_dashboard/ui/assets/no-sound.png"
+       anchors{
+       top: temp_slider.top
+       right: system_status.right
+       }
     }
 
 
