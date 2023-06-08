@@ -5,12 +5,12 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Smart Thermstat")
+    title: qsTr("Smart Thermostat")
 
     Loader
     {
         id:mainLoader
-        source:"./UI/HomeScreen/HomeScreen.qml"
+        source:"qrc:/ui/Home_Screen/Home_Screen.qml"
         anchors.fill: parent
     }
 }

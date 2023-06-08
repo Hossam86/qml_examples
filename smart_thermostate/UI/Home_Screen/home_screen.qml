@@ -27,9 +27,9 @@ Item {
         color:"white"
     }
 
-    TempertureControlSlider
+    Temperature_Slider
     {
-        id:temperture_control_slider
+        id:temp_slider
         anchors{
         top:parent.top
         left: system_status.right
@@ -40,5 +40,34 @@ Item {
         }
 
     }
+
+    Image {
+        id: heating_select
+        source: "qrc:/ui/assets/flame.png"
+       anchors{
+       top: temp_slider.top
+       right: system_status.left
+       rightMargin: 100
+       }
+
+       width: 70
+       height:70
+    }
+
+    Image {
+        id: hetting_settings
+        source: "qrc:/ui/assets/settings.png"
+       anchors{
+       bottom: temp_slider.bottom
+       right: system_status.left
+       rightMargin: 100
+       }
+
+       width: 70
+       height:70
+    }
+
+
+
 
 }
