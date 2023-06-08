@@ -11,24 +11,24 @@ Slider
     orientation: Qt.Vertical
 
 
-//    handle: Rectangle{
+    handle: Rectangle{
 
-//        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.horizontalCenter: parent.horizontalCenter
 
-//        width: 70
-//        height:70
-//        radius: width/2
-//        color:'black'
-//        border.color: 'white'
-//        border.width: 3
-//        y:cnt_slider.visualPosition *(cnt_slider.availableHeight-height)
+        width: 70
+        height:70
+        radius: width/2
+        color:'black'
+        border.color: 'white'
+        border.width: 3
+        y:cnt_slider.visualPosition *(cnt_slider.availableHeight-height)
 
-//        Text {
-//            text: cnt_slider.value
-//            font.pixelSize: 30
-//            color: "white"
-//            anchors.centerIn: parent
-//        }
+        Text {
+            text: cnt_slider.value
+            font.pixelSize: 30
+            color: "white"
+            anchors.centerIn: parent
+        }
 
-//    }
+    }
 }

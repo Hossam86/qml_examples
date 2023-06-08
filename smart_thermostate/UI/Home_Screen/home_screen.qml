@@ -46,9 +46,27 @@ Item {
         source: "qrc:/ui/assets/flame.png"
        anchors{
        top: temp_slider.top
-       right: system_status.right
+       right: system_status.left
+       rightMargin: 100
        }
+
+       width: 70
+       height:70
     }
+
+    Image {
+        id: hetting_settings
+        source: "qrc:/ui/assets/settings.png"
+       anchors{
+       bottom: temp_slider.bottom
+       right: system_status.left
+       rightMargin: 100
+       }
+
+       width: 70
+       height:70
+    }
+
 
 
 
