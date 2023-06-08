@@ -10,7 +10,7 @@ Window {
     Loader
     {
         id:mainLoader
-        source:"./ui/Home_Screen/Home_Screen.qml"
+        source:"qrc:/ui/Home_Screen/Home_Screen.qml"
         anchors.fill: parent
     }
 }

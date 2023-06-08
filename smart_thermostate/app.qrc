@@ -9,5 +9,7 @@
         <file>ui/assets/settings.png</file>
         <file>ui/assets/thermometer.png</file>
         <file>ui/assets/wifi.png</file>
+        <file>ui/Home_Screen/Home_Screen.qml</file>
+        <file>ui/Home_Screen/Temperature_Slider.qml</file>
     </qresource>
 </RCC>

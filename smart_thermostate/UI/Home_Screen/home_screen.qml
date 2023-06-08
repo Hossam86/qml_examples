@@ -43,7 +43,7 @@ Item {
 
     Image {
         id: heating_select
-        source: "/Users/hossamsamir/Projects/qml_examples/tesla_dashboard/ui/assets/no-sound.png"
+        source: "qrc:/ui/assets/flame.png"
        anchors{
        top: temp_slider.top
        right: system_status.right

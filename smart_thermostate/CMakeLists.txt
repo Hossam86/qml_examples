@@ -3,24 +3,22 @@ cmake_minimum_required(VERSION 3.16)
 project(smart_thermostate VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_AUTOMOC ON)
+
+set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 6.4 REQUIRED COMPONENTS Quick)
 
 qt_standard_project_setup()
 
 qt_add_executable(appsmart_thermostate
-    main.cpp
     app.qrc
+    main.cpp
 )
 
 qt_add_qml_module(appsmart_thermostate
     URI smart_thermostate
     VERSION 1.0
     QML_FILES main.qml
-    ui/Home_Screen/Home_Screen.qml
-    ui/Home_Screen/Temperature_Slider.qml
-
 )
 
 set_target_properties(appsmart_thermostate PROPERTIES
