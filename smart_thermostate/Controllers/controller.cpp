@@ -29,6 +29,10 @@ void Controller::setTargetTemp(int newTargetTemp)
         return;
     m_targetTemp = newTargetTemp;
     emit targetTempChanged();
+
+    // update system state message
+    checkSystemState();
+
 }
 
 QString Controller::systemStatusMessage() const
@@ -42,6 +46,9 @@ void Controller::setSystemStatusMessage(const QString &newSystemStatusMessage)
         return;
     m_systemStatusMessage = newSystemStatusMessage;
     emit systemStatusMessageChanged();
+
+    // update system state message
+    checkSystemState();
 }
 
 Controller::HeatSelectState Controller::systemState() const
@@ -55,4 +62,14 @@ void Controller::setSystemState(HeatSelectState newSystemState)
         return;
     m_systemState = newSystemState;
     emit systemStateChanged();
+}
+
+void Controller::checkSystemState()
+{
+    if (m_currentTemp< m_targetTemp && m_systemState== HEATING)
+        setSystemStatusMessage("Heating..");
+    if (m_currentTemp > m_targetTemp && m_systemState==COOLING)
+        setSystemStatusMessage("Cooling...");
+
+    else setSystemStatusMessage("Holding...");
 }

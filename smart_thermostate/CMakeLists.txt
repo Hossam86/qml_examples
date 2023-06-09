@@ -13,8 +13,8 @@ qt_standard_project_setup()
 qt_add_executable(appsmart_thermostate
     app.qrc
     main.cpp
-    controller.h
-    controller.cpp
+    Controllers/controller.h
+    Controllers/controller.cpp
 )
 
 qt_add_qml_module(appsmart_thermostate

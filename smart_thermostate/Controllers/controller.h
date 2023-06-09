@@ -44,6 +44,7 @@ signals:
     void systemStateChanged();
 
 private:
+    void checkSystemState();
     int m_currentTemp;
     int m_targetTemp;
     QString m_systemStatusMessage;
