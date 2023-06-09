@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Window
+import ThermoStat 1.0
 
 Window {
     width: 640
@@ -7,6 +8,10 @@ Window {
     visible: true
     title: qsTr("Smart Thermostat")
 
+    SystemController
+    {
+        id:sys_cnt
+    }
     Loader
     {
         id:mainLoader
